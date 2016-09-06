@@ -50,25 +50,25 @@ When creating a web site, you should have an idea of how the site will look arch
 #### Storyboard
 A storyboard is a diagram of a web site's structure, showing all the pages in the site and indicating how they are linked together. You should storyboard your web site before you start creating your pages in order to determine which structure works best for the type of information your site contains. A well designed structure can ensure that users are able to navigate the site without getting lost or missing important information.
 
-TODO: IMAGE OF STORYBOARD
+![Storyboard](images/storyboard.png)
 
 There are three ways of structuring your web pages, hierarchically, linear and a mix between those two.
 
 In a linear structure, each page is linked with the pages that follow and precede in in an ordered chain. This works best for web pages with a clearly defined order, e.g. a galleries or long articles that are divided over several pages.
 
-TODO: IMAGE OF LINEAR STRUCTURE
+![Linear structure](images/linear.png)
 
 In an augmented linear structure, each page contains an additional link back to an opening page.
 
-TODO: IMAGE OF AUGMENTED LINEAR STRUCTURE
+![Augmented linear structure](images/augmented.png)
 
 In the hierarchical structure, the pages are linked from the most general page down to more specific pages. Users easily move from general to specific and back again. If you have a navigation bar on your page, the links would be organized in a list of hyperlinks, grouped together in the same section of the page.
 
-TODO: IMAGE OF HIERARCHICAL STRUCTURE
+![Hierarchical structure](images/hierarchical.png)
 
 As websites become larger and more complex, you often need to use a combination of the two structures. The overall form can be hierarchical, allowing the user to move from general to specific, however the links also allow users to move through the site in a linear fashion.
 
-TODO: IMAGE OF MIXED STRUCTURE
+![Mixed structure](images/mixed.png)
 
 Being proactive will allow you to make a website that is easy to use with less effort. Each page should contain, at a minimum, a link to the site's home page, or to the relevant main topic page.
 
