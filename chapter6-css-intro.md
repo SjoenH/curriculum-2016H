@@ -340,6 +340,9 @@ The margin area extends the border area with an empty area used to separate the 
 
 The size of the margin area is controlled using the CSS properties margin-top, margin-right, margin-bottom, margin-left, or the shorthand `margin`.
 
+### Center elements
+If you want to center your content in the browser window, that is center your outer element, you can use `margin-left:auto` and `margin-right:auto` to do so. Your element needs then to be less than 100% of the browser window.
+
 ### Borders
 Borders can be styled using the `border-style`, `border-color` and `border-width`.
 
@@ -463,7 +466,25 @@ For long spans of text, reducing the contrast a little bit improves readability.
 
 If you want to have a dark background and light text, you can increase the weight of the font and the line height to make reading easier.
 
-### Pseudo-selectors
-TODO
-### Alignment
-TODO
+### Pseudo-classes
+A pseudo classes (pseudo selector) is a keyword added to the selector specifying a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector. As I am sure you remember, the selector is the word before the opening curly bracket ({) in a CSS rule. The pseudo-class follows the selector, with this syntax:
+
+```css
+selector:pseudo-class{
+  property: value;
+}
+```
+
+Pseudo-classes, together with pseudo-elements (which you will learn in the next chapter), let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on some form elements), or the position of the mouse (like :hover which lets you know if the mouse is over an element or not).
+
+Pseudo-classes is probably most used to style links in their different states (link, visited, hover, active). If you want the color to change e.g. on hover, you would write:
+
+```css
+a:hover{
+  color: green;
+}
+```
+
+When you are styling links, `a:hover` must come after `a:link` and `a:visited` in the CSS rule in order for it to take effect. `a:active` must come after `a:hover`. If you have trouble with your style not working, this might be it.
+
+Pseudo-classes are not case sensitive. You can use pseudo-classes on all elements. Over at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) you can find a complete list of the pseudo-classes.
