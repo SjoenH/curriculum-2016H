@@ -6,7 +6,7 @@ To understand how CSS works, you can imagine that there is an invisible box arou
 
 In the images below you can see a HTML page. On the left side, you see how it would have been rendered in a browser. On the right side I have added outlines to each element so that you can see how CSS will treat each element as if it lives inside its own box. The block level elements are shown with an orange border, and inline elements have a blue border.
 
-TODO: Insert image of page with/without borders
+![Block and inline elements](images/blockinlineelements.png)
 
 ### Syntax
 Each block of code is called a rule, and defines some style for an element. Each rule consists of a selector, choosing what element(s) to style, a property and a value. A rule looks like this:
